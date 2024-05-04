@@ -1,2 +1,7 @@
 # FTB Interactions Japanize Pack
- FTB Inetarctions 日本語化リソパ
+
+FTB Interactions の日本語化リソースパックです。
+
+## ライセンス
+
+Creative Commons 4.0 BY-NC-SA の下で公開しています。
