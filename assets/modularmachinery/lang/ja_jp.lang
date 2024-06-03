@@ -1,0 +1,182 @@
+itemGroup.modularmachinery=Modular Machinery
+
+command.modularmachinery.syntax=/mm-syntax
+command.modularmachinery.hand=/mm-hand
+command.modularmachinery.hand.empty=アイテムを持った状態でコマンドを実行してください。
+
+gui.controller.blueprint=ブループリント: %s
+gui.controller.blueprint.none=無し
+gui.controller.structure=Structure Found: %s
+gui.controller.structure.none=無し
+gui.controller.status=状態:
+gui.controller.status.redstone_stopped=レッドストーン信号を検知したため停止中
+gui.controller.status.missing_structure=Missing structure
+gui.controller.status.no_recipe=合致するレシピが見つかりません
+gui.controller.status.crafting=処理中...
+gui.controller.status.crafting.progress=進捗: %s
+
+craftcheck.failure.item.input=クラフトに必要なアイテムがありません！
+craftcheck.failure.item.output.space=アイテム出力口がいっぱいです！
+craftcheck.failure.fluid.input=クラフトに必要な流体がありません！
+craftcheck.failure.fluid.output.space=流体出力口がいっぱいです！
+craftcheck.failure.gas.input=クラフトに必要な流体がありません！
+craftcheck.failure.gas.output.space=流体出力口がいっぱいです！
+craftcheck.failure.energy.input=エネルギー不足です！
+
+component.missing.energy.output=エネルギー出力口が見つかりません！
+component.missing.energy.input=エネルギー入力口が見つかりません！
+component.missing.fluid.output=流体搬出口が見つかりません！
+component.missing.fluid.input=流体搬入口が見つかりません！
+component.missing.gas.output=流体搬出口が見つかりません！
+component.missing.gas.input=流体搬入口が見つかりません！
+component.missing.item.output=アイテム搬出口が見つかりません！
+component.missing.item.input=アイテム搬入口が見つかりません！
+
+gui.blueprint.popout.info=Sneak to freeze the current preview to be able to preview it in world.
+gui.blueprint.popout.place=Rightclick to place preview; move away from the placed one or open another structure preview (blueprint) to remove the one in-world.
+
+jei.category.preview=Structure Preview
+
+message.structurebuild.confirmrotation=Controller is facing %s
+message.structurebuild.confirmrotation.rotating=Rotating structure for saving by %s degrees...
+message.structurebuild.empty=You have nothing selected to save.
+message.structurebuild.warndedicated=You're saving the machine on a dedicated server! Be sure to download it from the server!
+message.structurebuild.save=Machine saved as %s in the machinery directory!
+message.structurebuild.fail=Failed to save the machine to a file! Check the log for more information!
+
+tooltip.machinery.empty=空
+
+tooltip.machinery.fuel=Accepts any fuel.
+tooltip.machinery.fuel.item=燃焼時間: %s
+tooltip.machinery.fuel.in=要求される合計燃焼時間:
+tooltip.machinery.fuel.in.total=%s tick
+
+tooltip.machinery.blueprint.required=ブループリントが必要です
+tooltip.machinery.blueprint.upgrades=アップグレード
+
+tooltip.machinery.duration=処理所要時間: %s tick
+
+tooltip.machinery.chance.in=消費される確率: %s
+tooltip.machinery.chance.out=生産される確率: %s
+tooltip.machinery.chance.in.never=消費される確率: 0%
+tooltip.machinery.chance.out.never=生産される確率: 0%
+
+tooltip.machinery.energy.in=要求されるエネルギー量:
+tooltip.machinery.energy.in.tick=毎tick: %s %s/t
+tooltip.machinery.energy.in.total=計: %s %s
+tooltip.machinery.energy.out=生産されるエネルギー量:
+tooltip.machinery.energy.out.tick=毎tick: %s %s/t
+tooltip.machinery.energy.out.total=計: %s %s
+
+tooltip.energy.type.fe=FE
+tooltip.energy.type.ic2_eu=EU
+tooltip.energy.type.gt_eu=EU
+
+tooltip.constructtool.creative=Creative Structure-To-JSON Tool
+
+tooltip.itembus.slot=1 スロット
+tooltip.itembus.slots=%s スロット
+
+tooltip.fluidhatch.empty=空
+tooltip.fluidhatch.fluid=[液体]
+tooltip.fluidhatch.gas=[気体]
+tooltip.fluidhatch.tank=%smb / %smb
+tooltip.fluidhatch.tank.gas=%s / %s
+tooltip.fluidhatch.tank.info=貯蔵可能量: %s mb
+tooltip.fluidhatch.tank.mek=Accepts Mekanism Gas
+
+tooltip.energyhatch.charge=%s / %s %s
+tooltip.energyhatch.storage=蓄電量: %s FE
+tooltip.energyhatch.out.transfer=出力: %s FE/tick
+tooltip.energyhatch.in.accept=Accepts %s FE/tick
+
+tooltip.energyhatch.ic2.powerrate=EU/t
+tooltip.energyhatch.ic2.any=Any
+tooltip.energyhatch.ic2.out.voltage=出力電圧: %s
+tooltip.energyhatch.ic2.out.transfer=EU Output Transfer: %s %s
+tooltip.energyhatch.ic2.in.voltage=入力電圧: %s
+tooltip.energyhatch.ic2.in.transfer=EU Input Transfer: %s %s
+
+tooltip.energyhatch.gregtech.voltage.in=入力電圧: §a%s §7(§a%s§7)
+tooltip.energyhatch.gregtech.voltage.out=出力電圧: §a%s §7(§a%s§7)
+tooltip.energyhatch.gregtech.amperage=アンペア: §e%s
+tooltip.energyhatch.gregtech.storage=内部蓄電量: §9%s
+
+tooltip.ic2.powertier.0.name=ULV
+tooltip.ic2.powertier.1.name=LV
+tooltip.ic2.powertier.2.name=MV
+tooltip.ic2.powertier.3.name=HV
+tooltip.ic2.powertier.4.name=EV
+tooltip.ic2.powertier.5.name=IV
+tooltip.ic2.powertier.6.name=LuV
+tooltip.ic2.powertier.7.name=ZPM
+tooltip.ic2.powertier.8.name=UV
+tooltip.ic2.powertier.9.name=UHV
+tooltip.ic2.powertier.10.name=UEV
+tooltip.ic2.powertier.11.name=UIV
+tooltip.ic2.powertier.12.name=UXV
+
+item.modularmachinery.itemblueprint.name=ブループリント
+item.modularmachinery.itemmodularium.name=モジュラリウム
+item.modularmachinery.itemconstructtool.name=Construct Selection Tool
+
+tile.modularmachinery.blockcontroller.name=Machine Controller
+
+tile.modularmachinery.blockcasing.plain.name=Machine Casing
+tile.modularmachinery.blockcasing.vent.name=通気口
+tile.modularmachinery.blockcasing.firebox.name=Firebox Casing
+tile.modularmachinery.blockcasing.gearbox.name=Machine Gearbox
+tile.modularmachinery.blockcasing.reinforced.name=Reinforced Machine Casing
+tile.modularmachinery.blockcasing.circuitry.name=Machine Circuitry
+
+tile.modularmachinery.blockinputbus.tiny.name=一型アイテム搬入口
+tile.modularmachinery.blockinputbus.small.name=二型アイテム搬入口
+tile.modularmachinery.blockinputbus.normal.name=三型アイテム搬入口
+tile.modularmachinery.blockinputbus.reinforced.name=Reinforced 一型アイテム搬入口
+tile.modularmachinery.blockinputbus.big.name=Reinforced 二型アイテム搬入口
+tile.modularmachinery.blockinputbus.huge.name=Reinforced 三型アイテム搬入口
+tile.modularmachinery.blockinputbus.ludicrous.name=Reinforced 四型アイテム搬入口
+
+tile.modularmachinery.blockoutputbus.tiny.name=一型アイテム搬出口
+tile.modularmachinery.blockoutputbus.small.name=二型アイテム搬出口
+tile.modularmachinery.blockoutputbus.normal.name=三型アイテム搬出口
+tile.modularmachinery.blockoutputbus.reinforced.name=Reinforced 一型アイテム搬出口
+tile.modularmachinery.blockoutputbus.big.name=Reinforced 二型アイテム搬出口
+tile.modularmachinery.blockoutputbus.huge.name=Reinforced 三型アイテム搬出口
+tile.modularmachinery.blockoutputbus.ludicrous.name=Reinforced 四型アイテム搬出口
+
+tile.modularmachinery.blockfluidinputhatch.tiny.name=一型流体搬入口
+tile.modularmachinery.blockfluidinputhatch.small.name=二型流体搬入口
+tile.modularmachinery.blockfluidinputhatch.normal.name=三型流体搬入口
+tile.modularmachinery.blockfluidinputhatch.reinforced.name=Reinforced 一型流体搬入口
+tile.modularmachinery.blockfluidinputhatch.big.name=Reinforced 二型流体搬入口
+tile.modularmachinery.blockfluidinputhatch.huge.name=Reinforced 三型流体搬入口
+tile.modularmachinery.blockfluidinputhatch.ludicrous.name=Reinforced 四型流体搬入口
+tile.modularmachinery.blockfluidinputhatch.vacuum.name=Reinforced 五型流体搬入口
+
+tile.modularmachinery.blockfluidoutputhatch.tiny.name=一型流体搬出口
+tile.modularmachinery.blockfluidoutputhatch.small.name=二型流体搬出口
+tile.modularmachinery.blockfluidoutputhatch.normal.name=三型流体搬出口
+tile.modularmachinery.blockfluidoutputhatch.reinforced.name=Reinforced 一型流体搬出口
+tile.modularmachinery.blockfluidoutputhatch.big.name=Reinforced 二型流体搬出口
+tile.modularmachinery.blockfluidoutputhatch.huge.name=Reinforced 三型流体搬出口
+tile.modularmachinery.blockfluidoutputhatch.ludicrous.name=Reinforced 四型流体搬出口
+tile.modularmachinery.blockfluidoutputhatch.vacuum.name=Reinforced 五型流体搬出口
+
+tile.modularmachinery.blockenergyinputhatch.tiny.name=一型エネルギー入力口
+tile.modularmachinery.blockenergyinputhatch.small.name=二型エネルギー入力口
+tile.modularmachinery.blockenergyinputhatch.normal.name=三型エネルギー入力口
+tile.modularmachinery.blockenergyinputhatch.reinforced.name=Reinforced 一型エネルギー入力口
+tile.modularmachinery.blockenergyinputhatch.big.name=Reinforced 二型エネルギー入力口
+tile.modularmachinery.blockenergyinputhatch.huge.name=Reinforced 三型エネルギー入力口
+tile.modularmachinery.blockenergyinputhatch.ludicrous.name=Reinforced 四型エネルギー入力口
+tile.modularmachinery.blockenergyinputhatch.ultimate.name=Reinforced 五型エネルギー入力口
+
+tile.modularmachinery.blockenergyoutputhatch.tiny.name=一型エネルギー出力口
+tile.modularmachinery.blockenergyoutputhatch.small.name=二型エネルギー出力口
+tile.modularmachinery.blockenergyoutputhatch.normal.name=三型エネルギー出力口
+tile.modularmachinery.blockenergyoutputhatch.reinforced.name=Reinforced 一型エネルギー出力口
+tile.modularmachinery.blockenergyoutputhatch.big.name=Reinforced 二型エネルギー出力口
+tile.modularmachinery.blockenergyoutputhatch.huge.name=Reinforced 三型エネルギー出力口
+tile.modularmachinery.blockenergyoutputhatch.ludicrous.name=Reinforced 四型エネルギー出力口
+tile.modularmachinery.blockenergyoutputhatch.ultimate.name=Reinforced 五型エネルギー出力口
